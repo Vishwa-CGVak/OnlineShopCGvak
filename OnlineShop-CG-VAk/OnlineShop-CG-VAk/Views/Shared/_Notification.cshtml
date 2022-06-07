@@ -1,0 +1,45 @@
+﻿
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+@if(TempData["Create"] != null){
+    
+    <script type="text/javascript">    
+        toastr.success('@TempData["Create"]');
+    </script>
+
+}
+
+@if(TempData["Update"] != null){
+
+    <script type="text/javascript">
+    
+        toastr.success('@TempData["Update"]');
+    </script>
+}
+
+
+@if(TempData["Delete"] != null){
+
+    <script type="text/javascript">
+    
+        toastr.success('@TempData["Delete"]');
+    </script>
+}
+
+@if(TempData["AlreadyExists"] != null){
+
+     <script type="text/javascript">
+    
+        toastr.error('@TempData["AlreadyExists"]');
+    </script>
+}
+@if(TempData["NoChanges"] != null)
+{
+    <script type="text/javascript">
+
+        toastr.warning('@TempData["NoChanges"]');
+    </script>
+        
+}
+

@@ -1,0 +1,25 @@
+﻿@model Brand
+
+<div class="container">
+
+        <div class="col-md-6 mx-auto mt-4 border border-1 p-3 rounded-2">
+        <div class="row">
+            <h2>Create Brand</h2>
+        </div>
+       
+        <div class="row">
+            <form method="POST">
+                
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control"  />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class ="mt-2">
+                <button type="submit"class="btn btn-primary">Create</button>
+                <a class="btn btn-outline-secondary" asp-controller="Brand" asp-action="Index">Return To List</a>
+                </div>
+            </form>
+        </div>
+        </div>
+</div>

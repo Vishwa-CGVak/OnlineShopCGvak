@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Product>
+
+
+<div class="row mt-4">
+
+    <div class="text-center">
+
+        <h2>Welcome to CGVAK Online Shop</h2>
+    </div>
+
+    @foreach(var prod in Model)
+    {
+        <div class="col-md-3 mb-2">
+
+            <div class="card h-100 p-1">
+
+                <a asp-action="Details" asp-route-id="@prod.Id">
+                    <img src="~/Images/Products/@prod.ImageUrl" class="card-img-top rounded-2" />
+                </a>
+
+                <div class="card-body">
+                    <div class="row">
+                      <div class="col-md-12">
+                    <h5 class="card-title text-warning">@prod.Title</h5>
+                    <p class="card-text text-info">Price: @prod.ListPrice</p>
+
+                    </div>
+                    </div>
+
+                 </div>
+
+                
+                 <div class="card-footer d-grid gap-2 p-0">
+                  <div class="row">
+                      <div class="col-md-6">
+                     <a asp-action="Details" asp-route-productId="@prod.Id" class="btn btn-primary w-100">Details</a>
+                     </div>
+                      <div class="col-md-6">
+                     <a asp-action="Add2Cart" asp-route-id="@prod.Id" class="btn btn-secondary float-end w-100">Add to Cart</a>
+                 </div>
+                 </div>
+              </div>
+                 
+                 
+
+
+
+            </div>
+
+        </div>
+    }
+
+</div>

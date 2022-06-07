@@ -1,0 +1,254 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Task\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk.csproj": {}
+  },
+  "projects": {
+    "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\CGVAK-OnlineShop.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\CGVAK-OnlineShop.DataAccess.csproj",
+        "projectName": "CGVAK-OnlineShop.DataAccess",
+        "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\CGVAK-OnlineShop.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\CGVAK-LT199\\.nuget\\packages\\",
+        "outputPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CGVAK-LT199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj": {
+                "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj",
+        "projectName": "CGVAK-OnlineShop.Models",
+        "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj",
+        "packagesPath": "C:\\Users\\CGVAK-LT199\\.nuget\\packages\\",
+        "outputPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CGVAK-LT199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Task\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Task\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk.csproj",
+        "projectName": "OnlineShop-CG-VAk",
+        "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk.csproj",
+        "packagesPath": "C:\\Users\\CGVAK-LT199\\.nuget\\packages\\",
+        "outputPath": "E:\\Task\\OnlineShop-CG-VAk\\OnlineShop-CG-VAk\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\CGVAK-LT199\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\CGVAK-OnlineShop.DataAccess.csproj": {
+                "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.DataAccess\\CGVAK-OnlineShop.DataAccess.csproj"
+              },
+              "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj": {
+                "projectPath": "E:\\Task\\OnlineShop-CG-VAk\\CGVAK-OnlineShop.Models\\CGVAK-OnlineShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

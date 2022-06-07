@@ -1,0 +1,15 @@
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\bin\Debug\net6.0\CGVAK-OnlineShop.DataAccess.deps.json
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\bin\Debug\net6.0\CGVAK-OnlineShop.DataAccess.dll
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\bin\Debug\net6.0\CGVAK-OnlineShop.DataAccess.pdb
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\bin\Debug\net6.0\CGVAK-OnlineShop.Models.dll
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\bin\Debug\net6.0\CGVAK-OnlineShop.Models.pdb
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.csproj.AssemblyReference.cache
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.AssemblyInfoInputs.cache
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.AssemblyInfo.cs
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.csproj.CoreCompileInputs.cache
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.csproj.CopyComplete
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.dll
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\refint\CGVAK-OnlineShop.DataAccess.dll
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\CGVAK-OnlineShop.DataAccess.pdb
+E:\Task\OnlineShop-CG-VAk\CGVAK-OnlineShop.DataAccess\obj\Debug\net6.0\ref\CGVAK-OnlineShop.DataAccess.dll

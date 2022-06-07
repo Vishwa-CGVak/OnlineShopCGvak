@@ -1,0 +1,30 @@
+﻿@model Category
+
+<div class="container">
+
+        <div class="col-md-6 mx-auto mt-4 border border-1 p-3 rounded-2">
+        <div class="row">
+            <h2>Edit Category</h2>
+        </div>
+
+        <div class="row">
+            <form method="POST">
+                
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="OrderOfDisplay" class ="form-label"></label>
+                    <input asp-for="OrderOfDisplay" class ="form-control" id="orderofdisplay" name="orderofdisplay" readonly = "readonly"/>
+                    <span asp-validation-for="OrderOfDisplay" class="text-danger"></span>
+                </div>
+                <div class ="mt-2">
+                <button type="submit"class="btn btn-primary">Update</button>
+                <a class="btn btn-outline-secondary" asp-controller="Category" asp-action="Index">Return To List</a>
+                </div>
+            </form>
+        </div>
+        </div>
+</div>

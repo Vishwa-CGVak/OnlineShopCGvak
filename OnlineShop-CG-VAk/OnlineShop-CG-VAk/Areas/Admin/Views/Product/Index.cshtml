@@ -1,0 +1,54 @@
+﻿@model IEnumerable<Product>
+
+
+<div class =" container">
+
+    <div class ="row mt-4 mb-2">
+        <div class ="col-md-6">
+
+           <h2>Product Dashboard</h2>   
+        </div>
+
+        <div class ="col-md-6 text-end">
+            <a asp-controller="Product" asp-action="Upsert" class="btn btn-primary"><i class="bi bi-plus-circle"></i>  Create Product</a>
+        </div>
+
+    </div>
+
+    <partial name = "_Notification" />
+
+    <table class="table table-hover rounded rounded-3">   
+        <thead>
+            <tr>
+                <th>Sl.No</th>
+                <th>Title</th>
+                <th>Model No</th>
+                <th>List Price</th>
+                <th>Price for 1-50</th>
+                <th>Price for 51-100</th>
+                <th>Price for 100+</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var product in Model.Select((value,index)=>new {index, value}))
+            {
+             <tr>
+                <td>@(product.index+1)</td>
+                <td>@product.value.Title</td>
+                <td>@product.value.ISBN</td>
+                <td>@product.value.ListPrice</td>
+                <td>@product.value.Price</td>
+                <td>@product.value.Price50</td>
+                <td>@product.value.Price100</td>
+
+                <td>
+                    <a asp-controller="Product" asp-action="Upsert" asp-route-id="@product.value.Id" class="btn btn-sm btn-secondary"><i class="bi bi-pencil-square"></i></a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@product.value.Id" class="btn btn-sm btn-danger"><i class="bi bi-trash3"></i></a>
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
